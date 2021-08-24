@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Home from "../Home/Home";
+import Inicio from "../../Español/Inicio/Inicio"
 import AboutMe from "../AboutMe/AboutMe";
 import Proyects from "../Proyects/Proyects";
 import Education from "../Education/Education";
@@ -11,7 +11,7 @@ const ContainDiv = styled.div`
 function Landing() {
     return (
         <ContainDiv>
-            <Home />
+            <Inicio />
             <AboutMe />
             <Proyects />
             <Education />

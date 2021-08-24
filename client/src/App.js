@@ -1,4 +1,5 @@
 import './App.css';
+import "./Fonts.css";
 /*import logo from './logo.svg';*/
 import styled from 'styled-components';
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
@@ -10,13 +11,13 @@ import NavBarEn from './components/Languages/English/NavBar/NavBarEn';
 import Social from './components/Social/Social';
 
 const WebContainDiv = styled.div`
-  padding: 10% 10% 2% 10%;
+  padding: 2% 10% 2% 10%;
   background-color: whitesmoke;
   @media screen and (min-width: 768px) {
-    padding: 3% 10% 2% 10%;
+    padding: 2% 10% 2% 10%;
   }
   @media screen and (min-width: 1024px) {
-    padding: 3% 7% 2% 7%;
+    padding: 1% 7% 2% 7%;
   }
 `
 
