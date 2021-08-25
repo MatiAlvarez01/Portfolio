@@ -5,6 +5,8 @@ const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
 const cors = require("cors");
 const creds = require("./config");
+const dotenv = require('dotenv');
+dotenv.config();
 
 const app = express();
 app.use(cors());
@@ -12,12 +14,12 @@ app.use(express.json());
 app.use("/", router)
 
 const oauth2Client = new OAuth2(
-    "877213886996-ogbkboinj0dqe7vf6lab6ve83oecn60u.apps.googleusercontent.com",
-    "oVp4kzA-1p0Ol-d4kPswdLOs",
-    "https://developers.google.com/oauthplayground"
+    process.env.CLIENT_ID,
+    process.env.CLIENT_SECRET,
+    process.env.URL
 )
 oauth2Client.setCredentials({
-    refresh_token: "1//04VQU2Yj-YFSbCgYIARAAGAQSNwF-L9IrNDbeAVJiOMXqA917CRZA9_loSBHpShOVD1ZM7cc86MZUfSHqYmZbLbS4jMG1ykfkVJA"
+    refresh_token: process.env.REFRESH_TOKEN
 });
 const accessToken = oauth2Client.getAccessToken();
 
@@ -27,10 +29,10 @@ const smtpTransport = nodemailer.createTransport({
     secure: true,
     auth: {
         type: "OAuth2",
-        user: creds.USER,
-        clientId: creds.CLIENT_ID,
-        clientSecret: creds.CLIENT_SECRET,
-        refreshToken: creds.REFRESH_TOKEN,
+        user: process.env.USER,
+        clientId: process.env.CLIENT_ID,
+        clientSecret: process.env.CLIENT_SECRET,
+        refreshToken: process.env.REFRESH_TOKEN,
         accessToken: accessToken
     },
     tls: {
