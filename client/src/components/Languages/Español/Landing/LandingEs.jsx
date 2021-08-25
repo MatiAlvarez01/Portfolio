@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Inicio from "../Inicio/Inicio";
 import SobreMi from "../SobreMi/SobreMi";
 import Proyectos from "../Proyectos/Proyectos";
-import Formacion from "../Formacion/Formacion";
+import Contacto from "../Contacto/Contacto";
 
 const ContainDiv = styled.div`
 `
@@ -14,7 +14,7 @@ function Landing() {
             <Inicio />
             <SobreMi />
             <Proyectos />
-            <Formacion />
+            <Contacto />
         </ContainDiv>
     )
 }

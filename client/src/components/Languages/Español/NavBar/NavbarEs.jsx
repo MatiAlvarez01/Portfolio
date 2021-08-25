@@ -23,7 +23,7 @@ function NavBar() {
             <Actions href="#Inicio">Inicio</Actions>
             <Actions href="#SobreMi">Sobre mi</Actions>
             <Actions href="#Proyectos">Proyectos</Actions>
-            <Actions href="#Formacion">Formacion</Actions>
+            <Actions href="#Contacto">Contacto</Actions>
         </ContainDiv>
     )
 }

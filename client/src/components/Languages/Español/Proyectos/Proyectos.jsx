@@ -26,7 +26,7 @@ const Title = styled.h1`
         font-size: 40px;
     }
     @media screen and (min-width: 2560px) {
-        font-size: 45px;
+        font-size: 55px;
     }
 `
 const ProyectoDiv = styled.div`

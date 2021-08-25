@@ -15,10 +15,13 @@ const ContainDiv = styled.div`
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.50);
     height: 100vh;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    @media screen and (min-width: 1024px) {
+        flex-direction: row;
+    }
     @media screen and (max-width: 680px) {
         background-position-x: 20%;
     }
@@ -29,10 +32,11 @@ const ContainDiv = styled.div`
 const Button = styled.button`
     background-color: white;
     color: black;
-    font-size: 2rem;
-    font-family: Courier New;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
     border-radius: 10px;
-    padding: 5%;
+    padding: 7%;
     border: 0px;
     &:hover {
         background: #CED3DB;
@@ -41,6 +45,9 @@ const Button = styled.button`
         background-image: -ms-linear-gradient(top, #CED3DB, #828F9D);
         background-image: -o-linear-gradient(top, #CED3DB, #828F9D);
         background-image: -webkit-gradient(to bottom, #CED3DB, #828F9D);
+    }
+    @media screen and (min-width: 2560px) {
+        font-size: 5rem;
     }
 `
 

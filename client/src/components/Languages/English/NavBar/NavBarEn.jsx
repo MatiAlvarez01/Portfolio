@@ -20,7 +20,7 @@ function NavBarEn() {
             <Actions href="#Home">Home</Actions>
             <Actions href="#AboutMe">About Me</Actions>
             <Actions href="#Proyects">Proyects</Actions>
-            <Actions href="#Education">Education</Actions>
+            <Actions href="#Contact">Contact</Actions>
         </ContainDiv>
     )
 }

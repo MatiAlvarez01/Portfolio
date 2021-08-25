@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Inicio from "../../Español/Inicio/Inicio"
 import AboutMe from "../AboutMe/AboutMe";
 import Proyects from "../Proyects/Proyects";
-import Education from "../Education/Education";
+import Education from "../Contact/Contact";
 
 const ContainDiv = styled.div`
 `
