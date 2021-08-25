@@ -74,7 +74,7 @@ const Tech = styled.p`
 
 function Inicio() {
     return (
-        <ContainDiv id="Inicio">
+        <ContainDiv>
             <TextDiv>
                 <Title>Matias Alvarez</Title>
                 <SubTitle>FullStack Developer</SubTitle>
