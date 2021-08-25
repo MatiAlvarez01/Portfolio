@@ -63,6 +63,12 @@ router.post("/sendEmail", (req, res, next) => {
     })
 })
 
-app.listen(3002, () => {
+let port = process.env.PORT;
+
+if (port === null || port === "") {
+    port = 3002;
+}
+
+app.listen(port, () => {
     console.log("Server listen at port 3002")
 })
