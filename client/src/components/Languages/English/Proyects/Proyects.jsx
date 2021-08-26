@@ -29,29 +29,71 @@ const Title = styled.h1`
         font-size: 55px;
     }
 `
-const ProyectoDiv = styled.div`
+const ProyectDiv = styled.div`
+    box-shadow: inset 0 0 0 1000px rgba(103, 128, 159, 0.8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    @media screen and (min-width: 1440px) {
+        width: 60%
+    }
 `
-const ProyectoImg = styled.img`
+const ProyectImg = styled.img`
+    height: 150px;
+    margin: 2% 1% 2% 1%;
+    border-radius: 5px;
+    @media screen and (min-width: 1024px) {
+        height: 160px;
+    }
+    @media screen and (min-width: 2560px) {
+        height: 210px;
+    }
 `
-const ProyectoInfo = styled.span`
+const ProyectInfo = styled.span`
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+    @media screen and (min-width: 1920px) {
+        font-size: 20px;
+        margin: 0 1% 2% 1%;
+    }
+    @media screen and (min-width: 2560px) {
+        font-size: 25px;
+    }
+`
+const TextUnderline = styled.a`
+    text-decoration: underline;
 `
 
 function Proyects() {
     return (
         <ContainDiv id="Proyects">
             <Title>Proyects</Title>
-            <ProyectoDiv>
-                <ProyectoImg></ProyectoImg>
-                <ProyectoInfo></ProyectoInfo>
-            </ProyectoDiv>
-            <ProyectoDiv>
-                <ProyectoImg></ProyectoImg>
-                <ProyectoInfo></ProyectoInfo>
-            </ProyectoDiv>
-            <ProyectoDiv>
-                <ProyectoImg></ProyectoImg>
-                <ProyectoInfo></ProyectoInfo>
-            </ProyectoDiv>
+            <ProyectDiv>
+                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                    <ProyectImg src="countriesProyect.jpg"/> 
+                </a>
+                <ProyectInfo>Web that show 250 countries. It allow you to search by name, filter by categories, and add new turist activities to each country. <TextUnderline>Front</TextUnderline>: 
+                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectInfo>
+            </ProyectDiv>
+            <ProyectDiv>
+                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                    <ProyectImg src="countriesProyect.jpg"/> 
+                </a>
+                <ProyectInfo>Web that show 250 countries. It allow you to search by name, filter by categories, and add new turist activities to each country. <TextUnderline>Front</TextUnderline>: 
+                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectInfo>
+            </ProyectDiv>
+            <ProyectDiv>
+                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                    <ProyectImg src="countriesProyect.jpg"/> 
+                </a>
+                <ProyectInfo>Web that show 250 countries. It allow you to search by name, filter by categories, and add new turist activities to each country. <TextUnderline>Front</TextUnderline>: 
+                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectInfo>
+            </ProyectDiv>
         </ContainDiv>
     )
 }

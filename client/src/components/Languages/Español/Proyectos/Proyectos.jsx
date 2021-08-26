@@ -30,10 +30,43 @@ const Title = styled.h1`
     }
 `
 const ProyectoDiv = styled.div`
+    box-shadow: inset 0 0 0 1000px rgba(103, 128, 159, 0.8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    @media screen and (min-width: 1440px) {
+        width: 60%
+    }
 `
 const ProyectoImg = styled.img`
+    height: 150px;
+    margin: 2% 1% 2% 1%;
+    border-radius: 5px;
+    @media screen and (min-width: 1024px) {
+        height: 160px;
+    }
+    @media screen and (min-width: 2560px) {
+        height: 210px;
+    }
 `
 const ProyectoInfo = styled.span`
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+    @media screen and (min-width: 1920px) {
+        font-size: 20px;
+        margin: 0 1% 2% 1%;
+    }
+    @media screen and (min-width: 2560px) {
+        font-size: 25px;
+    }
+`
+const TextUnderline = styled.a`
+    text-decoration: underline;
 `
 
 function Proyectos() {
@@ -41,16 +74,25 @@ function Proyectos() {
         <ContainDiv id="Proyectos">
             <Title>Proyectos</Title>
             <ProyectoDiv>
-                <ProyectoImg></ProyectoImg>
-                <ProyectoInfo></ProyectoInfo>
+                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                    <ProyectoImg src="countriesProyect.jpg"/> 
+                </a>
+                <ProyectoInfo>Web que muestra 250 paises. Permite buscar por nombre, ordenar por filtros, y agregarle actividades turisticas a cada uno. <TextUnderline>Front</TextUnderline>: 
+                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectoInfo>
             </ProyectoDiv>
             <ProyectoDiv>
-                <ProyectoImg></ProyectoImg>
-                <ProyectoInfo></ProyectoInfo>
+                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                    <ProyectoImg src="countriesProyect.jpg"/> 
+                </a>
+                <ProyectoInfo>Web que muestra 250 paises. Permite buscar por nombre, ordenar por filtros, y agregarle actividades turisticas a cada uno. <TextUnderline>Front</TextUnderline>: 
+                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectoInfo>
             </ProyectoDiv>
             <ProyectoDiv>
-                <ProyectoImg></ProyectoImg>
-                <ProyectoInfo></ProyectoInfo>
+                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                    <ProyectoImg src="countriesProyect.jpg"/> 
+                </a>
+                <ProyectoInfo>Web que muestra 250 paises. Permite buscar por nombre, ordenar por filtros, y agregarle actividades turisticas a cada uno. <TextUnderline>Front</TextUnderline>: 
+                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectoInfo>
             </ProyectoDiv>
         </ContainDiv>
     )
