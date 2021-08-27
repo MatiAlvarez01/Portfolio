@@ -25,3 +25,4 @@ Hi! My name is Matias and I hope you enjoy my Portfolio website
 
 * Email: matialvarez.arg@gmail.com
 * LinkedIn: https://www.linkedin.com/in/matialvarez/
+* Instagram: https://www.instagram.com/_matialvarez/
