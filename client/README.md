@@ -23,5 +23,5 @@ Hi! My name is Matias and I hope you enjoy my Portfolio website
 
 ## Keep in touch:
 
-* Email: matialvarez.arg@gmail.com ([Click to send email](mailto:matialvarez.arg@gmail.com))
+* Email: matialvarez.arg@gmail.com
 * LinkedIn: https://www.linkedin.com/in/matialvarez/
