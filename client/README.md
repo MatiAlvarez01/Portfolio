@@ -12,14 +12,14 @@ Hi! My name is Matias and I hope you enjoy my Portfolio website
 
 ## What tech did I use?
 
-* *For the Frontend:
-* ReactJS 
-* CSS with Styled-components
+- *For the Frontend:*
+  - ReactJS 
+  - CSS with Styled-components
 
-* *For the Backend:
-* NodeJS
-* Express
-* And the NPM package *nodemailer* for the contact form
+- *For the Backend:*
+  - NodeJS
+  - Express
+  - And the NPM package *nodemailer* for the contact form
 
 ## Keep in touch:
 
