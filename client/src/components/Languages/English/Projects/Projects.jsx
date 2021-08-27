@@ -29,7 +29,7 @@ const Title = styled.h1`
         font-size: 55px;
     }
 `
-const ProyectDiv = styled.div`
+const ProjectDiv = styled.div`
     box-shadow: inset 0 0 0 1000px rgba(103, 128, 159, 0.8);
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@ const ProyectDiv = styled.div`
         width: 60%
     }
 `
-const ProyectImg = styled.img`
+const ProjectImg = styled.img`
     height: 150px;
     margin: 2% 1% 2% 1%;
     border-radius: 5px;
@@ -53,7 +53,7 @@ const ProyectImg = styled.img`
         height: 210px;
     }
 `
-const ProyectInfo = styled.span`
+const ProjectInfo = styled.span`
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     margin-bottom: 2%;
@@ -69,33 +69,30 @@ const TextUnderline = styled.a`
     text-decoration: underline;
 `
 
-function Proyects() {
+function Projects() {
     return (
-        <ContainDiv id="Proyects">
-            <Title>Proyects</Title>
-            <ProyectDiv>
+        <ContainDiv id="Projects">
+            <Title>Projects</Title>
+            <ProjectDiv>
                 <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
-                    <ProyectImg src="countriesProyect.jpg"/> 
+                    <ProjectImg src="countriesProyect.jpg"/> 
                 </a>
-                <ProyectInfo>Web that show 250 countries. It allow you to search by name, filter by categories, and add new turist activities to each country. <TextUnderline>Front</TextUnderline>: 
-                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectInfo>
-            </ProyectDiv>
-            <ProyectDiv>
+                <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
+            </ProjectDiv>
+            <ProjectDiv>
                 <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
-                    <ProyectImg src="countriesProyect.jpg"/> 
+                    <ProjectImg src="countriesProyect.jpg"/> 
                 </a>
-                <ProyectInfo>Web that show 250 countries. It allow you to search by name, filter by categories, and add new turist activities to each country. <TextUnderline>Front</TextUnderline>: 
-                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectInfo>
-            </ProyectDiv>
-            <ProyectDiv>
+                <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
+            </ProjectDiv>
+            <ProjectDiv>
                 <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
-                    <ProyectImg src="countriesProyect.jpg"/> 
+                    <ProjectImg src="countriesProyect.jpg"/> 
                 </a>
-                <ProyectInfo>Web that show 250 countries. It allow you to search by name, filter by categories, and add new turist activities to each country. <TextUnderline>Front</TextUnderline>: 
-                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectInfo>
-            </ProyectDiv>
+                <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
+            </ProjectDiv>
         </ContainDiv>
     )
 }
 
-export default Proyects;
+export default Projects;

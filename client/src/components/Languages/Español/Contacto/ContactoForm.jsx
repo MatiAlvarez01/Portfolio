@@ -104,7 +104,7 @@ function ContactoForm({labels}) {
 
     function handleFormSubmit(e) {
         e.preventDefault();
-        axios.post("http://localhost:3002/sendEmail", formInfo)
+        axios.post("https://matialvarez-portfolio-backend.herokuapp.com/sendEmail", formInfo)
             .then(emailSended => {
                 if (emailSended.status === 200) {
                     setFormInfo({

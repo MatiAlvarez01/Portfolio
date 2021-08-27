@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Inicio from "../../Español/Inicio/Inicio"
 import AboutMe from "../AboutMe/AboutMe";
-import Proyects from "../Proyects/Proyects";
+import Projects from "../Projects/Projects";
 import Education from "../Contact/Contact";
 
 const ContainDiv = styled.div`
@@ -13,7 +13,7 @@ function Landing() {
         <ContainDiv>
             <Inicio />
             <AboutMe />
-            <Proyects />
+            <Projects />
             <Education />
         </ContainDiv>
     )
