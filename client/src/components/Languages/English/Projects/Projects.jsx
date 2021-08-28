@@ -74,19 +74,19 @@ function Projects() {
         <ContainDiv id="Projects">
             <Title>Projects</Title>
             <ProjectDiv>
-                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
                     <ProjectImg src="countriesProyect.jpg"/> 
                 </a>
                 <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
             </ProjectDiv>
             <ProjectDiv>
-                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
                     <ProjectImg src="countriesProyect.jpg"/> 
                 </a>
                 <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
             </ProjectDiv>
             <ProjectDiv>
-                <a href="https://github.com/MatiAlvarez01/PI-Countries" target="_blank" rel="noreferrer">
+                <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
                     <ProjectImg src="countriesProyect.jpg"/> 
                 </a>
                 <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
