@@ -83,7 +83,7 @@ function Projects() {
                 <a href="https://matia-notes.vercel.app" target="_blank" rel="noreferrer">
                     <ProjectImg src="notesProject.jpg"/> 
                 </a>
-                <ProjectInfo>A web create and save notes. It allows you to put notes on favs. (one of my first projects)<TextUnderline>Front</TextUnderline>: ReactJS.</ProjectInfo>
+                <ProjectInfo>A web create and save notes. It allows you to put notes on favs. (one of my first projects) <TextUnderline>Front</TextUnderline>: ReactJS.</ProjectInfo>
             </ProjectDiv>
         </ContainDiv>
     )

@@ -84,7 +84,7 @@ function Proyectos() {
                 <a href="https://matia-notes.vercel.app" target="_blank" rel="noreferrer">
                     <ProyectoImg src="notesProject.jpg"/> 
                 </a>
-                <ProyectoInfo>Web para crear y guardar notas. Permite guardarlas en favoritos. (Uno de mis primeros projectos)<TextUnderline>Front</TextUnderline>: ReactJS</ProyectoInfo>
+                <ProyectoInfo>Web para crear y guardar notas. Permite guardarlas en favoritos. (Uno de mis primeros projectos) <TextUnderline>Front</TextUnderline>: ReactJS</ProyectoInfo>
             </ProyectoDiv>
         </ContainDiv>
     )
