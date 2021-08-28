@@ -33,7 +33,7 @@ function NavBarEn() {
         <ContainDiv>
             <Actions href="/">Home</Actions>
             <Actions href="#AboutMe">About Me</Actions>
-            <Actions href="#Proyects">Proyects</Actions>
+            <Actions href="#Projects">Projects</Actions>
             <Actions href="#Contact">Contact</Actions>
         </ContainDiv>
     )
