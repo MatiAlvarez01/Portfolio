@@ -77,19 +77,13 @@ function Projects() {
                 <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
                     <ProjectImg src="countriesProyect.jpg"/> 
                 </a>
-                <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
+                <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. <TextUnderline>Front</TextUnderline>: ReactJS and Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
             </ProjectDiv>
             <ProjectDiv>
-                <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
-                    <ProjectImg src="countriesProyect.jpg"/> 
+                <a href="https://matia-notes.vercel.app" target="_blank" rel="noreferrer">
+                    <ProjectImg src="notesProject.jpg"/> 
                 </a>
-                <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
-            </ProjectDiv>
-            <ProjectDiv>
-                <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
-                    <ProjectImg src="countriesProyect.jpg"/> 
-                </a>
-                <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. Front: ReactJS y Redux. Back: NodeJS, Express, Sequelize.<TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
+                <ProjectInfo>A web create and save notes. It allows you to put notes on favs. (one of my first projects)<TextUnderline>Front</TextUnderline>: ReactJS.</ProjectInfo>
             </ProjectDiv>
         </ContainDiv>
     )

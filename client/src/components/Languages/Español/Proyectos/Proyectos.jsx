@@ -81,18 +81,10 @@ function Proyectos() {
                 ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectoInfo>
             </ProyectoDiv>
             <ProyectoDiv>
-                <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
-                    <ProyectoImg src="countriesProyect.jpg"/> 
+                <a href="https://matia-notes.vercel.app" target="_blank" rel="noreferrer">
+                    <ProyectoImg src="notesProject.jpg"/> 
                 </a>
-                <ProyectoInfo>Web que muestra 250 paises. Permite buscar por nombre, ordenar por filtros, y agregarle actividades turisticas a cada uno. <TextUnderline>Front</TextUnderline>: 
-                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectoInfo>
-            </ProyectoDiv>
-            <ProyectoDiv>
-                <a href="https://matia-countries.vercel.app" target="_blank" rel="noreferrer">
-                    <ProyectoImg src="countriesProyect.jpg"/> 
-                </a>
-                <ProyectoInfo>Web que muestra 250 paises. Permite buscar por nombre, ordenar por filtros, y agregarle actividades turisticas a cada uno. <TextUnderline>Front</TextUnderline>: 
-                ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectoInfo>
+                <ProyectoInfo>Web para crear y guardar notas. Permite guardarlas en favoritos. (Uno de mis primeros projectos)<TextUnderline>Front</TextUnderline>: ReactJS</ProyectoInfo>
             </ProyectoDiv>
         </ContainDiv>
     )
