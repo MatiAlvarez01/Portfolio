@@ -81,6 +81,12 @@ function Proyectos() {
                 ReactJS y Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProyectoInfo>
             </ProyectoDiv>
             <ProyectoDiv>
+                <a href="https://pf-regionales.vercel.app" target="_blank" rel="noreferrer">
+                    <ProyectoImg src="eCommerceProject.jpg"/> 
+                </a>
+                <ProyectoInfo>E-Commerce fue desarrollado en equipo bajo la metodologia agil Scrum. Tiene todo lo que un E-Commerce tendria: Filtrados de productos, inicio de sesion, carrito, MercadoPago, y un panel de Admin. </ProyectoInfo>
+            </ProyectoDiv>
+            <ProyectoDiv>
                 <a href="https://matia-notes.vercel.app" target="_blank" rel="noreferrer">
                     <ProyectoImg src="notesProject.jpg"/> 
                 </a>

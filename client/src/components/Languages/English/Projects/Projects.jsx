@@ -80,6 +80,12 @@ function Projects() {
                 <ProjectInfo>A web that shows 250 countries. It allows you to search by name, filter by categories, and add new tourist activities to each country. <TextUnderline>Front</TextUnderline>: ReactJS and Redux. <TextUnderline>Back</TextUnderline>: NodeJS, Express, Sequelize.</ProjectInfo>
             </ProjectDiv>
             <ProjectDiv>
+                <a href="https://pf-regionales.vercel.app" target="_blank" rel="noreferrer">
+                    <ProjectImg src="eCommerceProject.jpg"/> 
+                </a>
+                <ProjectInfo>E-Commerce was developed in group with the Scrum agile methodology. It has all: Products filters, Log in, cart, checkout, Admin Panel to control products and show sales statistics.</ProjectInfo>
+            </ProjectDiv>
+            <ProjectDiv>
                 <a href="https://matia-notes.vercel.app" target="_blank" rel="noreferrer">
                     <ProjectImg src="notesProject.jpg"/> 
                 </a>
